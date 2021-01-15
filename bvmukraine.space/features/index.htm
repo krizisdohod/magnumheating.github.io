@@ -1,0 +1,2284 @@
+<!DOCTYPE html>
+<html
+	xml:lang="uk"
+	lang="uk"
+>
+<head>
+	<link href="/bitrix/js/main/core/css/core.min.css?14332482162854" type="text/css" rel="stylesheet" />
+
+<style type="text/css">.bx-composite-btn {background: url(/bitrix/images/main/composite/sprite-1x.png) no-repeat right 0 #e94524;border-radius: 15px;color: #fff !important;display: inline-block;line-height: 30px;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;font-size: 12px !important;font-weight: bold !important;height: 31px !important;padding: 0 42px 0 17px !important;vertical-align: middle !important;text-decoration: none !important;}@media screen   and (min-device-width: 1200px)   and (max-device-width: 1600px)   and (-webkit-min-device-pixel-ratio: 2)  and (min-resolution: 192dpi) {.bx-composite-btn {background-image: url(/bitrix/images/main/composite/sprite-2x.png);background-size: 42px 124px;}}.bx-composite-btn-fixed {position: absolute;top: -45px;right: 15px;z-index: 10;}.bx-btn-white {background-position: right 0;color: #fff !important;}.bx-btn-black {background-position: right -31px;color: #000 !important;}.bx-btn-red {background-position: right -62px;color: #555 !important;}.bx-btn-grey {background-position: right -93px;color: #657b89 !important;}.bx-btn-border {border: 1px solid #d4d4d4;height: 29px !important;line-height: 29px !important;}.bx-composite-loading {display: block;width: 40px;height: 40px;background: url(/bitrix/images/main/composite/loading.gif);}</style>
+<script type="text/javascript" data-skip-moving="true">(function(w, d) {var v = w.frameCacheVars = {'CACHE_MODE':'HTMLCACHE','banner':{'url':'http://www.1c-bitrix.ua/composite/','text':'Швидко з Бітрікс','bgcolor':'#2fc7f7','style':'white'},'storageBlocks':[],'dynamicBlocks':{'xZTkTx':'5029c45cd023','advertising_banner_popup':'d41d8cd98f00','bx-sb-portal-auth-bitrix24':'d41d8cd98f00','register_form_a4b682c62fac6778ebd3861980b23851':'f2e4ce52c78e','wxLmEW':'ddc7e4e80609','register_form_27160aba7a8e5f8f80ee82c1001e6931':'f2e4ce52c78e','TGciQg':'6eb6f28fc98e','register_form_c63bbdd9fd453942363ba7139bf35fde':'2f5db1acf093','7oB3wx':'d41d8cd98f00','AuBsm9':'d41d8cd98f00','bxst-buypage-ua':'e0bac8516118'},'AUTO_UPDATE':true,'AUTO_UPDATE_TTL':'120'};var inv = false;if (v.AUTO_UPDATE === false){if (v.AUTO_UPDATE_TTL && v.AUTO_UPDATE_TTL > 0){var lm = Date.parse(d.lastModified);if (!isNaN(lm)){var td = new Date().getTime();if ((lm + v.AUTO_UPDATE_TTL * 1000) >= td){w.frameRequestStart = false;w.preventAutoUpdate = true;return;}inv = true;}}else{w.frameRequestStart = false;w.preventAutoUpdate = true;return;}}var r = w.XMLHttpRequest ? new XMLHttpRequest() : (w.ActiveXObject ? new w.ActiveXObject("Microsoft.XMLHTTP") : null);if (!r) { return; }w.frameRequestStart = true;var m = v.CACHE_MODE; var l = w.location; var x = new Date().getTime();var q = "?bxrand=" + x + (l.search.length > 0 ? "&" + l.search.substring(1) : "");var u = l.protocol + "//" + l.host + l.pathname + q;r.open("GET", u, true);r.setRequestHeader("BX-ACTION-TYPE", "get_dynamic");r.setRequestHeader("BX-CACHE-MODE", m);r.setRequestHeader("BX-CACHE-BLOCKS", v.dynamicBlocks ? JSON.stringify(v.dynamicBlocks) : "");if (inv){r.setRequestHeader("BX-INVALIDATE-CACHE", "Y");}try { r.setRequestHeader("BX-REF", d.referrer || "");} catch(e) {}if (m === "APPCACHE"){r.setRequestHeader("BX-APPCACHE-PARAMS", JSON.stringify(v.PARAMS));r.setRequestHeader("BX-APPCACHE-URL", v.PAGE_URL ? v.PAGE_URL : "");}r.onreadystatechange = function() {if (r.readyState != 4) { return; }var a = r.getResponseHeader("BX-RAND");var b = w.BX && w.BX.frameCache ? w.BX.frameCache : false;if (a != x || !((r.status >= 200 && r.status < 300) || r.status === 304 || r.status === 1223 || r.status === 0)){var f = {error:true, reason:a!=x?"bad_rand":"bad_status", url:u, xhr:r, status:r.status};if (w.BX && w.BX.ready){BX.ready(function() {setTimeout(function(){BX.onCustomEvent("onFrameDataRequestFail", [f]);}, 0);});}else{w.frameRequestFail = f;}return;}if (b){b.onFrameDataReceived(r.responseText);if (!w.frameUpdateInvoked){b.update(false);}w.frameUpdateInvoked = true;}else{w.frameDataString = r.responseText;}};r.send();})(window, document);</script>
+<script type="text/javascript" data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if ((ieVersion = getIeVersion()) > 0){cl += " bx-ie bx-ie" + ieVersion;if (ieVersion > 7 && ieVersion < 10 && !isDoctype()){cl += " bx-quirks";}}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Gecko/.test(ua)){cl += " bx-firefox";}if (/Macintosh/i.test(ua)){cl += " bx-mac";}ht.className = htc ? htc + " " + cl : cl;function isDoctype(){if (d.compatMode){return d.compatMode == "CSS1Compat";}return d.documentElement && d.documentElement.clientHeight;}function getIeVersion(){if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)){return -1;}var rv = -1;if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)){rv = 11;}else if (!!d.documentMode && d.documentMode >= 10){rv = 10;}else if (!!d.documentMode && d.documentMode >= 9){rv = 9;}else if (d.attachEvent && !/Opera/.test(ua)){rv = 8;}if (rv == -1 || rv == 8){var re;if (n.appName == "Microsoft Internet Explorer"){re = new RegExp("MSIE ([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}else if (n.appName == "Netscape"){rv = 11;re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}}return rv;}})(window, document, navigator);</script>
+
+
+<link href="/bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?15597312181861" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/main/popup/dist/main.popup.bundle.min.css?158641190923459" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/main/sidepanel/css/sidepanel.min.css?15864119096244" type="text/css"  rel="stylesheet" />
+<link href="/local/components/sb/gdpr.manager.bitrix24/templates/.default/base.min.css?15672863674353" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/content_vendors/normalize.css/normalize.css?15482438365995" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_vendors/bootstrap/dist/css/bootstrap.min.css?1548243836144877" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_vendors/fontawesome/css/all.min.css?154876227853592" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_vendors/bitrix24_ui/css/ui.min.css?160768111836963" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/bitrix24_2017/css/app.min.css?160130396019426" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/bitrix24_2017/css/styles.min.css?1605878432165940" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/100/montserrat.css?1562235903356" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/100_italic/montserrat.css?1562235903393" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/200/montserrat.css?1562235903392" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/200_italic/montserrat.css?1562235903429" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/300/montserrat.css?1562235903362" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/300_italic/montserrat.css?1562235903399" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/400/montserrat.css?1562235903374" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/400_italic/montserrat.css?1562235903368" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/500/montserrat.css?1562235903368" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/500_italic/montserrat.css?1562235903405" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/600/montserrat.css?1562235903380" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/600_italic/montserrat.css?1562235903417" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/700/montserrat.css?1562235903356" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/700_italic/montserrat.css?1562235903393" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/800/montserrat.css?1562235903386" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/800_italic/montserrat.css?1562235903423" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/900/montserrat.css?1562235903362" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_fonts/montserrat/900_italic/montserrat.css?1562235903399" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_vendors/owlcarousel2/dist/assets/owl.carousel.min.css?15482438362936" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_vendors/animate.css/animate.css?154824383623848" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/content_vendors/popup.manager/popup.manager.min.css?15894661781644" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/bitrix24_2017/css/round.popup.window.min.css?1575988309945" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/bitrix24_2017/css/portal.auth.window.min.css?15809021695459" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/bitrix24_2017/css/lang.selector.globe.min.css?15877180882549" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link rel="icon" href="https://www.bitrix24.ua/favicon.ico" />
+<link rel="shortcut icon" href="https://www.bitrix24.ua/favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noyaca" />
+<meta name="robots" content="noodp" />
+
+<meta name="robots" content="" />
+<meta name="keywords" content="CRM система для продажів" />
+<meta name="description" content="🕛Бітрікс24.CRM - це професійна безкоштовна СРМ система ⏩автоматизації продажів ⏩обліку і запису клієнтів ⏩комунікації з клієнтами, використовуючи 𝑩𝒊𝒕𝒓𝒊𝒙24 ви отримуєте якісний продукт який підвищує ефективність вашого бізнесу - bitrix24.ua" />
+<link rel="canonical" href="https://www.bitrix24.ua/features/" />
+
+<meta property="og:title" content="CRM - система управління взаємовідносинами з клієнтами - Бітрікс24" />
+<meta property="og:description" content="🕛Бітрікс24.CRM - це професійна безкоштовна СРМ система ⏩автоматизації продажів ⏩обліку і запису клієнтів ⏩комунікації з клієнтами, використовуючи 𝑩𝒊𝒕𝒓𝒊𝒙24 ви отримуєте якісний продукт який підвищує ефективність вашого бізнесу - bitrix24.ua" />
+<meta property="og:image" content="https://www.bitrix24.ru/images/b24reach_ua.png" />
+<meta property="og:image:width" content="" />
+<meta property="og:image:height" content="" />
+<meta property="og:url" content="https://www.bitrix24.ua/features/" />
+
+<meta name="twitter:title" content="CRM - система управління взаємовідносинами з клієнтами - Бітрікс24">
+<meta name="twitter:description" content="🕛Бітрікс24.CRM - це професійна безкоштовна СРМ система ⏩автоматизації продажів ⏩обліку і запису клієнтів ⏩комунікації з клієнтами, використовуючи 𝑩𝒊𝒕𝒓𝒊𝒙24 ви отримуєте якісний продукт який підвищує ефективність вашого бізнесу - bitrix24.ua">
+<meta name="twitter:image" content="https://www.bitrix24.ru/images/b24reach_ua.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+
+<title>CRM - система управління взаємовідносинами з клієнтами - Бітрікс24</title>		<link rel="alternate" hreflang="ru" href="https://www.bitrix24.ru/features/">
+	<link rel="alternate" hreflang="ru-BY" href="https://www.bitrix24.by/features/">
+	<link rel="alternate" hreflang="uk-UA" href="https://www.bitrix24.ua/features/">
+	<link rel="alternate" hreflang="ru-KZ" href="https://www.bitrix24.kz/features/">
+	<link rel="alternate" hreflang="en-GB" href="https://www.bitrix24.eu/features/">
+	<link rel="alternate" hreflang="bg" href="https://www.bitrix24.eu/features/">
+	<link rel="alternate" hreflang="bs" href="https://www.bitrix24.eu/features/">
+	<link rel="alternate" hreflang="hr" href="https://www.bitrix24.eu/features/">
+	<link rel="alternate" hreflang="cs" href="https://www.bitrix24.eu/features/">
+	<link rel="alternate" hreflang="da" href="https://www.bitrix24.eu/features/">
+	<link rel="alternate" hreflang="lv" href="https://www.bitrix24.eu/features/">
+	<link rel="alternate" hreflang="lb" href="https://www.bitrix24.eu/features/">
+	<link rel="alternate" hreflang="no" href="https://www.bitrix24.eu/features/">
+	<link rel="alternate" hreflang="ro" href="https://www.bitrix24.eu/features/">
+	<link rel="alternate" hreflang="rm" href="https://www.bitrix24.eu/features/">
+	<link rel="alternate" hreflang="sr" href="https://www.bitrix24.eu/features/">
+	<link rel="alternate" hreflang="sk" href="https://www.bitrix24.eu/features/">
+	<link rel="alternate" hreflang="sl" href="https://www.bitrix24.eu/features/">
+	<link rel="alternate" hreflang="sv" href="https://www.bitrix24.eu/features/">
+	<link rel="alternate" hreflang="th" href="https://www.bitrix24.com/th/features/">
+	<link rel="alternate" hreflang="ms" href="https://www.bitrix24.com/my/features/">
+	<link rel="alternate" hreflang="de" href="https://www.bitrix24.de/features/">
+	<link rel="alternate" hreflang="de-AT" href="https://www.bitrix24.de/features/">
+	<link rel="alternate" hreflang="de-CH" href="https://www.bitrix24.de/features/">
+	<link rel="alternate" hreflang="fr" href="https://www.bitrix24.fr/features/">
+	<link rel="alternate" hreflang="pt-BR" href="https://www.bitrix24.com.br/features/">
+	<link rel="alternate" hreflang="pt-PT" href="https://www.bitrix24.com.br/features/">
+	<link rel="alternate" hreflang="es-ES" href="https://www.bitrix24.es/features/">
+	<link rel="alternate" hreflang="es-MX" href="https://www.bitrix24.es/features/">
+	<link rel="alternate" hreflang="es-CO" href="https://www.bitrix24.es/features/">
+	<link rel="alternate" hreflang="es-AR" href="https://www.bitrix24.es/features/">
+	<link rel="alternate" hreflang="es-PE" href="https://www.bitrix24.es/features/">
+	<link rel="alternate" hreflang="es-CL" href="https://www.bitrix24.es/features/">
+	<link rel="alternate" hreflang="es-VE" href="https://www.bitrix24.es/features/">
+	<link rel="alternate" hreflang="ja" href="https://www.bitrix24.jp/features/">
+	<link rel="alternate" hreflang="pl" href="https://www.bitrix24.pl/features/">
+	<link rel="alternate" hreflang="it" href="https://www.bitrix24.it/features/">
+	<link rel="alternate" hreflang="vi" href="https://www.bitrix24.vn/features/">
+	<link rel="alternate" hreflang="id" href="https://www.bitrix24.id/features/">
+	<link rel="alternate" hreflang="tr" href="https://www.bitrix24.com.tr/features/">
+	<link rel="alternate" hreflang="en-IN" href="https://www.bitrix24.in/features/">
+	<link rel="alternate" hreflang="hi-IN" href="https://www.bitrix24.in/hi/features/">
+	<link rel="alternate" hreflang="zh-Hant" href="https://www.bitrix24.cn/tc/features/">
+	<link rel="alternate" hreflang="zh-Hans" href="https://www.bitrix24.cn/features/">
+	<link rel="alternate" href="https://www.bitrix24.com/features/" hreflang="x-default">
+	
+
+
+
+
+
+
+				<meta name="google-site-verification" content="0cIvzsZGPqqTIiGljAcNAa_G3lytNILODvUiCtL5nFk" />				<meta name="google-site-verification" content="UrHPthcb-CrCRLMar2BrsCkQRpFU_Rmixvv2eHLTWRE" />			<script data-skip-moving="true">
+				(function(w, d, s, l, i) {
+					w[l] = w[l] || [];
+					w[l].push({
+						'gtm.start': new Date().getTime(),
+						event: 'gtm.js'
+					});
+					var f = d.getElementsByTagName(s)[0],
+						j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+					j.async = true;
+					j.src =
+						'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+					f.parentNode.insertBefore(j, f);
+				})(window, document, 'script', 'dataLayer', 'GTM-NCBFHM');
+			</script>
+			</head>
+<body class="bxst-body ">
+			<noscript>
+				<iframe
+					src="https://www.googletagmanager.com/ns.html?id=GTM-NCBFHM"
+					height="0"
+					width="0"
+					style="display:none;visibility:hidden"></iframe>
+			</noscript>
+			<div id="bxdynamic_xZTkTx_start" style="display:none"></div>	<script
+		type="text/html"
+		data-bx-cookie-manager-settings-template="main-cookie-policy-settings-loader"
+		data-bx-cookie-manager-settings-data='{"cookieNameList":{"popup":"BITRIX_SM_USER_POPUP_SETTINGS","gdpr":"BITRIX_SM_USER_GDPR_SETTINGS"},"cookieTypeList":{"gdpr":{"persistent":"necessary","analytical":"analytical"}},"cookieDomain":"www.bitrix24.ua","isExpiresAllowed":true}'
+	></script>
+<div id="bxdynamic_xZTkTx_end" style="display:none"></div><div id="bxdynamic_advertising_banner_popup_start" style="display:none"></div><div id="bxdynamic_advertising_banner_popup_end" style="display:none"></div>		<div class="header-section js-header-stick-section">
+			<div class="header-section__outer">
+				<div class="header-section__inner">
+
+											<div class="header-menu-switch" data-bx-header-switch>
+							<div class="header-menu-switch__line"></div>
+							<div class="header-menu-switch__line"></div>
+							<div class="header-menu-switch__line"></div>
+						</div>
+						
+					<div class="header-content">
+													<div class="header-content__section header-content__section_logo">
+								<div class="header-logo">
+									<a class="header-logo__section" href="/">									<img
+										class="header-logo__picture"
+										src="/bitrix/templates/bitrix24_2017/images/header/bitrix24-logo-ua.svg"
+									>
+									</a>								</div>
+							</div>
+														<div class="header-content__section header-content__section_slide">
+
+								<div class="header-content-slide">
+									<div class="header-content-slide__outer" data-bx-header-slide-section>
+										<div class="header-content-slide__inner" data-bx-header-slide-section-ruler>
+																							<div class="header-content-slide__section header-content-slide__section_menu">
+													<ul class="header-menu">
+					<li class="header-menu__item">
+					<a class="header-menu__link" href="/whatisthis/">Що це?</a>				</li>
+								<li class="header-menu__item header-menu__item_active">
+					<span class="header-menu__link header-menu__link_active">Можливості</span>				</li>
+								<li class="header-menu__item">
+					<a class="header-menu__link" href="/prices/">Ціни</a>				</li>
+								<li class="header-menu__item">
+					<a class="header-menu__link" href="/apps/">Застосунки</a>				</li>
+								<li class="header-menu__item">
+					<a class="header-menu__link" href="/partners/">Партнери</a>				</li>
+								<li class="header-menu__item">
+					<a class="header-menu__link" href="https://helpdesk.bitrix24.ua/">Підтримка</a>				</li>
+				</ul>												</div>
+																								<div class="header-content-slide__section header-content-slide__section_control">
+																											<div class="header-content-slide__control">
+															<div id="bx-sb-portal-auth-bitrix24">
+	</div>														</div>
+																												<div class="header-content-slide__control">
+															<div
+	class="lang-selector-globe-section"
+	>
+	<div class="lang-selector-globe">
+		<div
+			class="lang-selector-globe__button"
+					>
+							<a
+					href="/online-domains-map/"
+					class="fas fa-globe-americas fa-6"
+					aria-hidden="true"
+				></a>
+						</div>
+			</div>
+</div>														</div>
+																										</div>
+												
+										</div>
+									</div>
+								</div>
+
+							</div>
+							
+					</div>
+
+				</div>
+			</div>
+		</div>
+			<div class="body-wrap bxst-main-wrapp">
+		<div id="bxdynamic_wxLmEW_start" style="display:none"></div>	<div class="bxst-section bxst-gradient-primary">
+					<div class="bxst-section-header">
+				<div class="bxst-section-header-outer">
+					<div class="bxst-section-header-inner">
+						<div
+							class="bxst-section-header-content bxst-section-header-content_media">
+							<h1 class="bxst-section-header-content-title">CRM для продажів</h1>								<div class="bxst-section-header-content-description">допомагає продавати більше: <br> бере під контроль всі канали комунікацій з клієнтами, підказує, що робити і автоматизує продажі.</div>								<div class="bxst-section-header-content-button">
+									<!--'start_frame_cache_register_form_a4b682c62fac6778ebd3861980b23851'-->	<div>
+		<div>
+			<a class="bxst-btn bxst-btn-success bxst-btn-lg" href="/create.php?b24_type=crm">Створити CRM безкоштовно</a>
+		</div>
+	</div>
+<!--'end_frame_cache_register_form_a4b682c62fac6778ebd3861980b23851'-->								</div>
+														</div>
+													<div
+								class="bxst-section-header-media"
+							>
+																<div
+									class="bxst-section-header-media-inner js-youtube-on-view-video-init"
+									data-youtube-video-id="KeqNyDcMHq0"
+								></div>							</div>
+												</div>
+				</div>
+			</div>
+						<div
+				>
+					<div class="bxst-section-header-menu js-stick-section">
+		<div class="bxst-section-header-menu-outer js-slide-menu-section js-header-menu-section" bx-data-stick-outer>
+			<div class="bxst-section-header-menu-inner" data-bx-slide-menu-section>
+				<div class="bxst-section-header-menu-list-body" data-bx-slide-menu-section-body>
+					<div class="bxst-section-header-menu-list" data-bx-slide-menu-section-list>
+														<div
+									class="bxst-section-header-menu-list-item active"
+									data-bx-slide-menu-section-list-item
+									data-bx-slide-menu-section-list-item-active								>
+									<div
+										class="bxst-section-header-menu-list-item-inner animated"
+										data-aosaa="categoryMenuAnimation"
+										data-aosaa-once="true"
+										style="animation-delay: 0.7s"
+									>
+										<span class="bxst-section-header-menu-list-item-link">CRM</span>									</div>
+								</div>
+																<div
+									class="bxst-section-header-menu-list-item"
+									data-bx-slide-menu-section-list-item
+																	>
+									<div
+										class="bxst-section-header-menu-list-item-inner animated"
+										data-aosaa="categoryMenuAnimation"
+										data-aosaa-once="true"
+										style="animation-delay: 0.7s"
+									>
+										<a class="bxst-section-header-menu-list-item-link" href="/features/videocalling.php">Відеодзвінки HD</a>									</div>
+								</div>
+																<div
+									class="bxst-section-header-menu-list-item"
+									data-bx-slide-menu-section-list-item
+																	>
+									<div
+										class="bxst-section-header-menu-list-item-inner animated"
+										data-aosaa="categoryMenuAnimation"
+										data-aosaa-once="true"
+										style="animation-delay: 1.4s"
+									>
+										<a class="bxst-section-header-menu-list-item-link" href="/features/company.php">Онлайн-офіс</a>									</div>
+								</div>
+																<div
+									class="bxst-section-header-menu-list-item"
+									data-bx-slide-menu-section-list-item
+																	>
+									<div
+										class="bxst-section-header-menu-list-item-inner animated"
+										data-aosaa="categoryMenuAnimation"
+										data-aosaa-once="true"
+										style="animation-delay: 2.1s"
+									>
+										<a class="bxst-section-header-menu-list-item-link" href="/features/tasks.php">Завдання та проекти</a>									</div>
+								</div>
+																<div
+									class="bxst-section-header-menu-list-item"
+									data-bx-slide-menu-section-list-item
+																	>
+									<div
+										class="bxst-section-header-menu-list-item-inner animated"
+										data-aosaa="categoryMenuAnimation"
+										data-aosaa-once="true"
+										style="animation-delay: 2.8s"
+									>
+										<a class="bxst-section-header-menu-list-item-link" href="/features/ol.php">Контакт-центр</a>									</div>
+								</div>
+																<div
+									class="bxst-section-header-menu-list-item"
+									data-bx-slide-menu-section-list-item
+																	>
+									<div
+										class="bxst-section-header-menu-list-item-inner animated"
+										data-aosaa="categoryMenuAnimation"
+										data-aosaa-once="true"
+										style="animation-delay: 3.5s"
+									>
+										<a class="bxst-section-header-menu-list-item-link" href="/features/sites.php">Сайти</a>									</div>
+								</div>
+																<div
+									class="bxst-section-header-menu-list-item"
+									data-bx-slide-menu-section-list-item
+																	>
+									<div
+										class="bxst-section-header-menu-list-item-inner animated"
+										data-aosaa="categoryMenuAnimation"
+										data-aosaa-once="true"
+										style="animation-delay: 4.2s"
+									>
+										<a class="bxst-section-header-menu-list-item-link" href="/features/shop.php">Магазини</a>									</div>
+								</div>
+													</div>
+				</div>
+				<div class="bxst-section-header-menu-select">
+					<div class="bxst-section-header-menu-select-switch" data-bx-slide-menu-header>
+						<div class="bxst-section-header-menu-select-title">CRM</div>
+						<span class="bxst-section-header-menu-select-icon"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+				</div>
+				</div>
+	<div id="bxdynamic_wxLmEW_end" style="display:none"></div>	<div class="bxst-section bxst-section-position">
+		<div class="content-features-section-background">
+	<div class="content-features-section-background__field content-features-section-background__field_left">
+		<div class="content-features-section-background__scene content-features-section-background__scene_background_1"></div>
+	</div>
+	<div class="content-features-section-background__field content-features-section-background__field_right">
+		<div class="content-features-section-background__scene content-features-section-background__scene_background_3">
+						<img
+				src="/images/features/crm/crm_laptop_ua.jpg"
+				alt="Фото Бітрікс24.CRM для продажів"
+				title="Бітрікс24.CRM для продажів"
+				class="content-features-section-background__scene-picture content-features-section-background__scene-picture_2"
+			>
+		</div>
+					<div class="content-features-section-background__marketplace-list">
+										<div class="content-features-section-background__marketplace-item">
+							<a href="/features/desktop.php" class="content-features-section-background__marketplace-link">
+								<img src="/images/content_common/icons/appstore/bitrix24-desktop-gray-ua.svg" class="content-features-section-background__marketplace-picture">
+							</a>
+						</div>
+												<div class="content-features-section-background__marketplace-item">
+							<a href="https://bitrix24.onelink.me/v3FJ/6c576a40" class="content-features-section-background__marketplace-link">
+								<img src="/images/content_common/icons/appstore/app-store-gray-ua.svg" class="content-features-section-background__marketplace-picture">
+							</a>
+						</div>
+												<div class="content-features-section-background__marketplace-item">
+							<a href="https://bitrix24.onelink.me/v3FJ/6c576a40" class="content-features-section-background__marketplace-link">
+								<img src="/images/content_common/icons/appstore/google-play-gray-ua.svg" class="content-features-section-background__marketplace-picture">
+							</a>
+						</div>
+									</div>
+				</div>
+</div>
+		<div class="bxst-section-cnt">
+			<div class="bxst-section-features-preview">
+				<div class="bxst-section-features-preview-inner">
+					<div class="bxst-block-title bxst-title-lg">Бітрікс24.CRM допомагає продавати більше</div>
+					<p>
+						Необмежена кількість користувачів
+						<br>
+						<small><span style="color: #98acb4;">CRM - система управління продажами і комунікаціями з клієнтами</span>
+						</small>
+					</p>
+					<ul class="bxst-section-features-preview-list">
+						<li class="bxst-section-features-preview-list-item">
+							<div class="bxst-section-features-preview-list-item-icon">
+								<img class="bxst-section-features-preview-list-item-icon-image" src="/bitrix/templates/bitrix24_2017/images/icons/icon-crm-couns.svg"alt="Фото Бітрікс24.CRM" title="Бітрікс24.CRM">
+							</div>
+							<div class="bxst-section-features-preview-list-item-content">
+								Всі дзвінки, листи, чати з клієнтами на сайті та в соцмережах зберігаються в CRM
+							</div>
+						</li>
+						<li class="bxst-section-features-preview-list-item">
+							<div class="bxst-section-features-preview-list-item-icon">
+								<img class="bxst-section-features-preview-list-item-icon-image" src="/bitrix/templates/bitrix24_2017/images/icons/icon-crm-graph.svg">
+							</div>
+							<div class="bxst-section-features-preview-list-item-content">
+								CRM сама веде клієнта по воронці: від холодного контакту до успішної угоди
+							</div>
+						</li>
+						<li class="bxst-section-features-preview-list-item">
+							<div class="bxst-section-features-preview-list-item-icon">
+								<img class="bxst-section-features-preview-list-item-icon-image" src="/bitrix/templates/bitrix24_2017/images/icons/icon-crm-laptop.svg">
+							</div>
+							<div class="bxst-section-features-preview-list-item-content">
+								Роботи відправляють клієнтам листи, sms і автоматизують продажі
+							</div>
+						</li>
+						<li class="bxst-section-features-preview-list-item">
+							<div class="bxst-section-features-preview-list-item-icon">
+								<img class="bxst-section-features-preview-list-item-icon-image" src="/bitrix/templates/bitrix24_2017/images/icons/icon-crm-target.svg">
+							</div>
+							<div class="bxst-section-features-preview-list-item-content">
+								CRM-маркетинг допомагає посилити перші та повторні продажі
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="bxst-features-section-list">
+		<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-1">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">Проста CRM</div>
+						<p><br>
+							Ви бачите скільки угод знаходиться в роботі, на якій стадії і хто з ними працює в даний момент.
+<br> <br>
+Використовуйте <a href="#can" class="js-anchor-link">канбан</a> (дошку) для того, щоб бачити всі зміни в статусах угод.
+						</p>
+						<div id="bxdynamic_register_form_27160aba7a8e5f8f80ee82c1001e6931_start" style="display:none"></div>	<div>
+		<div>
+			<a class="bxst-btn bxst-btn-success bxst-btn-lg" href="/create.php?b24_type=crm">Створити CRM безкоштовно</a>
+		</div>
+	</div>
+<div id="bxdynamic_register_form_27160aba7a8e5f8f80ee82c1001e6931_end" style="display:none"></div>					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/prosta_crm_ua.png" alt="Фото CRM система для продажів" title="CRM система для продажів">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">Картка CRM</div>
+						<p><br>
+							Переглядайте всю історію угоди: від першого запиту клієнта (тексти листів, sms і чатів, записи дзвінків і зустрічей) до оцінки їм роботи ваших співробітників.
+							<br><br>
+							У картку заносяться коментарі та всі заплановані справи по клієнту.
+<br><br>
+							<a href="#crm" target="_blank" class="hide-on-screen-md js-anchor-link">Детальніше про картку CRM</a>
+						</p>
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_card_ua.png" alt="Фото Картки CRM системи" title="Картка CRM системи">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-1">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">Спілкування в картці CRM</div>
+						<p><br>
+							У картці CRM можна створювати швидкі чати для обговорення угод, лідів, компаній, контактів.
+							<br>
+							<br>При цьому учасники чату стають виключно спостерігачами і не можуть вносити в картку ніяких змін.
+						</p>
+
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/card_chat_ua.png" alt="Фото Спілкування в картці CRM" title="Спілкування в картці CRM">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">Дзвінки з CRM</div>
+						<p><br>
+							Ви орендуєте номер або підключаєте свою телефонію, і всі дзвінки та записи розмов зберігаються в CRM.
+<br><br>
+							<a href="#calls" rel="nofollow" class="hide-on-screen-md js-anchor-link">Ще про телефонію</a>
+						</p>
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_call_ua.png" alt="Фото Картки CRM системи" title="Картка CRM системи">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-1">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">Листи з CRM</div>
+						<p>
+							<br>
+							<br>Лист клієнту відправляється прямо з CRM. Отримання і прочитання листа фіксується. Все листування зберігається.
+						</p>
+
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_let_ua.png" alt="Фото Спілкування в картці CRM" title="Спілкування в картці CRM">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">Безкоштовний онлайн-чат на сайт</div>
+						<p><br>
+							Всі повідомлення з
+							<a href="#chat" class="js-anchor-link">чату на сайті</a> потрапляють в CRM і розподіляються між менеджерами. Контакти клієнта і все листування зберігаються.
+							<br><br>
+							Такий чат можна легко додати на будь-який сайт. Безкоштовно.
+						</p>
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_online_ua.png" alt="Фото Безкоштовний онлайн-чат на сайт" title="Безкоштовний онлайн-чат на сайт">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">Автоматизація продажів</div>
+						<p><br>
+							<a href="#automation" class="js-anchor-link">Роботи CRM</a> відправляють клієнтам листи, sms, голосові повідомлення, показують рекламу, ставлять завдання менеджерам.
+						</p>
+							<div>
+		<div>
+			<a class="bxst-btn bxst-btn-success bxst-btn-lg" href="/create.php?b24_type=crm">Створити CRM безкоштовно</a>
+		</div>
+	</div>
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_avtosales_ua.png" alt="Фото Автоматизація продажів в CRM системі" title="Автоматизація продажів в CRM системі">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm"><a href="https://crm-shop.bitrix24site.ua/" rel="nofollow" class="hide-on-screen-md js-anchor-link">CRM-Магазин</a></div>
+						<p><br>
+							Всі ваші оператори можуть працювати і продавати навіть дистанційно. Виставляйте рахунки, приймайте платежі і керуйте доставкою прямо з CRM. Без налаштувань. Без складних інтеграцій.<br><br>
+Згенеруйте посилання швидкої оплати, надішліть її покупцеві в SMS або листі — він сплатить товар будь-яким зручним йому способом. Доступні оплата картою, ApplePay, GooglePay та інші платіжні системи.<br><br>
+<a href="https://crm-shop.bitrix24site.ua/" rel="nofollow" class="hide-on-screen-md js-anchor-link">Що таке CRM-Магазин?</a>
+						</p>
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_shop_ua.png" alt="Фото Дзвінки з CRM" title="Дзвінки з CRM">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">
+Просте підключення CRM-Магазину</div>
+						<p><br>
+
+Підключайте платіжні системи та онлайн-каси за спрощеним сценарієм. Вам не доведеться нічого інтегрувати і налаштовувати, ми вже про все подбали.
+							<br><br>Просто виберіть систему обробки платежів, авторизуйтесь, а все інше налаштує Бітрікс24.
+
+						</p>
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_podkl_ua.png" alt="Фото CRM-маркетинг" title="CRM-маркетинг">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">План продажів та звіти</div>
+						<p><br>
+							Розподіляйте план між співробітниками, стежте за навантаженням на менеджерів і аналізуйте продажі.
+						</p>
+						<!--<p>
+							Мы написали специальную
+							<a href="/sales/">книгу по созданию инновационного отдела продаж с Битрикс24.CRM</a>! Это подробное руководство, которое включает богатейший опыт и практические знания. Книга бесплатна для всех :)
+						</p>-->
+
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/startcrm_ua.jpg" alt="Фото План продажів та звіти" title="План продажів та звіти">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">Генератор продажів</div>
+						<p><br>
+							Створюйте повторні угоди з вашими існуючими клієнтами та передавайте їх в роботу в один клік. Менеджер отримає завдання та відправить, наприклад,  інформацію про оновлення асортименту тим, хто купував товар минулого сезону.
+							<br><br>
+							Це хороша можливість стимулювати існуючих клієнтів зробити нові покупки.
+<br><br>
+							Використовуйте для прискорення роботи, готові покрокові сценарії та скрипти для менеджерів.
+
+						</p>
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_gensales.png" alt="Фото Генератор продажів" title="Генератор продажів">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">Центр продажів</div>
+						<p><br>
+
+Приймайте замовлення і оплату прямо в чатах соцмереж і месенджерах, без створення окремого інтернет-магазину. Консультуйте, пропонуйте заповнити форму заявки — утримуйте потенційного клієнта і продавайте на комфортній для нього території.
+						</p>
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_center_ua.png" alt="Фото Дзвінки з CRM" title="Дзвінки з CRM">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">Об'єднання угод</div>
+						<p><br>
+							Якщо один і той же клієнт спочатку написав, а потім подзвонив, то автоматично з'являться дві різні угоди на одній або різних стадіях. Визначте основну угоду і об'єднайте їх в одну.<br><br>
+Для наведення порядку в CRM система регулярно перевірятиме її на наявність дублів. Менеджер сам вирішить об'єднувати дублі автоматично або розбирати вручну.<br>
+						</p>
+							<div>
+		<div>
+			<a class="bxst-btn bxst-btn-success bxst-btn-lg" href="/create.php?b24_type=crm">Створити CRM безкоштовно</a>
+		</div>
+	</div>
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_dubl_ua.png" alt="Фото Листи з CRM" title="Листи з CRM">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">Документи у CRM</div>
+						<p><br>
+							Друкуйте акти, рахунки, довіреності, товарні накладні з використанням власних або готових шаблонів.
+							<br><br>
+							Доручіть роботам створювати договори, рахунки, акти. Надсилайте їх на email, у чаті або у вигляді посилання в sms.
+							 
+						</p>
+
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/doccrm-u.png" alt="Фото Документи у CRM" title="Документи у CRM">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">Обмін даними з BAS</div>
+<br>
+						<p>
+							Ви можете налаштувати двонаправлений обмін даними (товари, контакти, компанії, замовлення) з BAS в реальному часі.
+							<br>
+							<br>Підтримуються версії BAS: Бухгалтерія 3, BAS: Управління торгівлею 10.3, 11 і BAS: УНФ 1.6.
+
+						</p>
+
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_bas_ua.png" alt="Фото Обмін даними з BAS" title="Обмін даними з BAS">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+<div class="bxst-block-title bxst-title-sm">Бекофіс BAS</div>
+						<p><br>
+							Не виходячи з Бітрікс24, відкривайте застосунок BAS прямо в картці CRM. Заповнюйте накладні, формуйте рахунки і акти в звичному інтерфейсі BAS і відправляйте їх клієнту.
+<br> <br> Всі документи зберігаються в BAS і в Бітрікс24.
+						</p>
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_card_ua.png" alt="Фото Бекофіс BAS" title="Бекофіс BAS">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">CRM-маркетинг</div>
+						<p><br>
+							CRM-маркетинг допоможе знайти потенційних клієнтів, схожих на ваших покупців, і швидко запустити рекламу.<br>
+<br> <br> Розсилки e-mail, sms, реклама з персональними пропозиціями під різні сегменти ваших клієнтів збільшать перші і повторні продажі. Використовуйте готові шаблони, створюйте свої і відстежуйте ефективність розсилок.
+						</p>
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_marketing_ua.png" alt="Фото Бекофіс BAS" title="Бекофіс BAS">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-1">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">Сайти у CRM</div>
+						<p><br>
+							Створіть свій сайт або лендінг за 15 хвилин. Налаштуйте роботів таким чином, щоб замовленнями потрапляли одразу в CRM, встановіть віджети онлайн-чату і соцмереж, створіть лід-форми.
+							<br> <br>Продавайте товари і ведіть історію продажів у CRM.
+<br><br>
+<a href="/features/sites.php" target="_blank" style="color: black">Більше про Бітрікс24.Сайти</a>
+						</p>
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_sites_ua.png" alt="Фото Сайти у CRM" title="Сайти у CRM">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">CRM-аналітика</div>
+						<p><br>
+							 Аналізуйте готові звіти з продажів та роботи менеджерів.
+							<br> <br>Розгорніть будь-який показник, подивіться його складові, зробіть свої висновки.
+						</p>
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_analitic_ua.png" alt="Фото CRM-аналітика" title="CRM-аналітика">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-1">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">
+Рейтинг клієнтів</div><br>
+						<p>
+							Звіти покажуть ваших постійних клієнтів, а також тих, хто приносить максимум прибутку. Групуйте угоди за різними категоріями та знаходьте нові можливості для роботи з базою клієнтів.
+						</p>
+
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_reting_ua.png" alt="Фото Наскрізна аналітика в Бітрікс24" title="Наскрізна аналітика в Бітрікс24">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm"> Тунелі продажів</div>
+						<p><br>
+
+Швидке і зручне налаштування воронки продажів між різними стадіями з вбудованим генератором продажів. <br> <br> Просто намалюйте шлях покупця від однієї стадії продажу до наступної, а Бітрікс24 самостійно побудує бізнес-процеси на вашим сценарієм.
+
+
+
+						</p>
+
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_voronka_ua.png" alt="Фото Тунелі продажів в Бітрікс24" title="Тунелі продажів в Бітрікс24">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm"> AI Скоринг CRM</div>
+						<p><br>
+
+
+AI (штучний інтелект) аналізує дані у вашій CRM і пророкує ймовірність успіху угод.
+
+						</p>
+
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_scoring_ua.png" alt="Фото Тунелі продажів в Бітрікс24" title="Тунелі продажів в Бітрікс24">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">Наскрізна аналітика</div>
+						<p><br>
+
+Тільки в Бітрікс24 безкоштовна і не вимагає інтеграції наскрізна аналітика. Отримуйте дані щодо окупнісності рекламних каналів і ефективності трафіку.<br> <br> Бітрікс24 - це перша в світі CRM, яка рахує ефективність витрат на рекламу.
+
+
+						</p>
+
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_nanalitic_ua.png" alt="Фото Тунелі продажів в Бітрікс24" title="Тунелі продажів в Бітрікс24">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<div class="bxst-section bxst-section-position">
+			<div class="bxst-features-section bxst-features-section-bg-2">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">Готові CRM-системи</div>
+						<p><br>
+Готові галузеві CRM для аптек, салонів краси та інших видів діяльності з уже налаштованими воронками, тунелями продажів, роботами.
+<br><br>
+Виберете один з готових шаблонів і починайте приймати замовлення!
+						</p>
+
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/crm_system_ua.png" alt="Фото Тунелі продажів в Бітрікс24" title="Тунелі продажів в Бітрікс24">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="bxst-section bxst-section-position bxst-section_position-left">
+			<div class="bxst-features-section bxst-features-section-bg-3">
+				<div class="bxst-features-section-inner">
+					<div class="bxst-features-section-content">
+						<div class="bxst-block-title bxst-title-sm">Мобільна CRM</div>
+						<p>
+							Залишайтеся завжди на зв'язку і керуйте продажами з будь-якої точки світу!
+							<br><br>
+							Безкоштовний застосунок<br>
+							для iPhone и Android
+							<br><br>
+							<a href="https://itunes.apple.com/ru/app/bitrix24/id561683423?l=ru&ls=1&mt=8" target=_blank><img src="/images/features/crm/appstore.png" height="50"></a>
+							<a href="https://play.google.com/store/apps/details?id=com.bitrix24.android" target=_blank><img src="/images/features/crm/googleplay_ua.png" height="49"></a>
+						</p>
+					</div>
+					<div class="bxst-features-section-media">
+						<div class="bxst-features-section-media-outer">
+							<div class="bxst-features-section-media-inner">
+								<img class="bxst-features-section-media-image" src="/images/content_ua/features/crm/mobilecrm_t_ua.png" alt="Фото Мобільна CRM" title="Мобільна CRM">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="bxst-section bxst-border-bottom">
+		<div class="bxst-section-cnt">
+			<div class="bxst-simple-content-area bxst-simple-content-area-features">
+				<div class="bxst-simple-content-area-media">
+		<img class="bxst-features-section-media-image" src="/images/features/crm/box_b24_ua.png" alt="Фото Мобільна CRM" title="Мобільна CRM">
+				</div>
+				<div class="bxst-simple-content-area-content">
+					<div class="bxst-block-title bxst-title-md">Коробкова версія</div>
+					<div class="bxst-simple-content-area-list-body">
+						<ul class="bxst-simple-content-area-list">
+							<li>Працює на вашому сервері</li>
+							<li>Додатковий функціонал</li>
+							<li>Можливість доопрацювання</li>
+						</ul>
+					</div>
+					<div class="bxst-simple-content-area-content-button">
+						<a href="/features/box_crm.php">
+							<div class="bxst-btn bxst-btn-primary bxst-btn-slim bxst-btn-lg">Дізнатися більше</div>
+						</a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><div id="bxdynamic_TGciQg_start" style="display:none"></div>	<div class="bxst-section bxst-helpdesk-features-section">
+						<div class="bxst-section-cnt bxst-border-bottom">
+					<div class="bxst-helpdesk-section">
+						<div class="bxst-helpdesk-section-inner">
+							<div class="bxst-helpdesk-section-title">
+								<div id="crm"></div>								<div class="bxst-block-title bxst-title-md">Ще про Бітрікс24.CRM</div>
+							</div>
+							<div class="bxst-helpdesk-section-list">
+																		<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6260623">
+																										Картка CRM													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887459">
+																										Ліди													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="7349431">
+													<span class="bxst-helpdesk-section-list-item-label success">новинка</span>													Повторні ліди													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5888353">
+																										Угоди													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5888343">
+																										Контакти та Компанії													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5888293">
+																										Комерційні пропозиції													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5888355">
+																										Рахунки													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="7673701">
+																										Генерація документів													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887895">
+																										Робота в режимі Канбан													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887615">
+																										Конвертація в угоду													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="7570645">
+																										CRM для послуг													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+												<div id="can"></div>												<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887895">
+																										Канбан в CRM													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="8670479">
+																										Спостерігачі в лідах та угодах													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="8822005">
+																										Наскрізна аналітика													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																	</div>
+						</div>
+					</div>
+				</div>
+								<div class="bxst-section-cnt bxst-border-bottom">
+					<div class="bxst-helpdesk-section">
+						<div class="bxst-helpdesk-section-inner">
+							<div class="bxst-helpdesk-section-title">
+																<div class="bxst-block-title bxst-title-md">Продажі</div>
+							</div>
+							<div class="bxst-helpdesk-section-list">
+																		<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="7131139">
+																										Напрямки в угодах (мультиворонки)													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6388585">
+																										Регулярні угоди													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6754941">
+																										План продажів													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6860857">
+																										Аналітичні звіти													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5888069">
+																										Конструктор звітів													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6446379">
+																										Гра з лічильниками: як лічильники допомагають продавати													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="7644805">
+																										Очищення місця в CRM													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																	</div>
+						</div>
+					</div>
+				</div>
+								<div class="bxst-section-cnt bxst-border-bottom">
+					<div class="bxst-helpdesk-section">
+						<div class="bxst-helpdesk-section-inner">
+							<div class="bxst-helpdesk-section-title">
+								<div id="communication"></div>								<div class="bxst-block-title bxst-title-md">Комунікації з клієнтами</div>
+							</div>
+							<div class="bxst-helpdesk-section-list">
+																		<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6302371">
+																										Листи з CRM													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6445859">
+																										Дзвінки з CRM (вбудована телефонія)													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887807">
+																										Переписка у соцмережах і месенджерах													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6418683">
+																										SMS з CRM													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+												<div id="chat"></div>												<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887853">
+																										Безкоштовний онлайн-чат на сайт													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6904255">
+																										Зворотний дзвінок на сайт													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6904255">
+																										CRM-форма для збору контактів													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887983">
+																										Обдзвін по базі клієнтів													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="7396655">
+																										Історія комунікацій з клієнтом (таймлайн)													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																	</div>
+						</div>
+					</div>
+				</div>
+								<div class="bxst-section-cnt bxst-border-bottom">
+					<div class="bxst-helpdesk-section">
+						<div class="bxst-helpdesk-section-inner">
+							<div class="bxst-helpdesk-section-title">
+								<div id="crmmarketing"></div>								<div class="bxst-block-title bxst-title-md">CRM-маркетинг</div>
+							</div>
+							<div class="bxst-helpdesk-section-list">
+																		<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6860925">
+													<span class="bxst-helpdesk-section-list-item-label success">новинка</span>													Сегментація клієнтів													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6860935">
+													<span class="bxst-helpdesk-section-list-item-label success">новинка</span>													Розсилки по e-mail													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6860935">
+													<span class="bxst-helpdesk-section-list-item-label success">новинка</span>													Розсилки sms													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6860935">
+													<span class="bxst-helpdesk-section-list-item-label success">новинка</span>													Голосові повідомлення													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6860935">
+													<span class="bxst-helpdesk-section-list-item-label success">новинка</span>													Розсилки повідомлень (в канали Відкритих ліній)													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6860935">
+													<span class="bxst-helpdesk-section-list-item-label success">новинка</span>													Реклама у Facebook, Google													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="7627611">
+																										Права доступу до CRM-маркетингу													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																	</div>
+						</div>
+					</div>
+				</div>
+								<div class="bxst-section-cnt bxst-border-bottom">
+					<div class="bxst-helpdesk-section">
+						<div class="bxst-helpdesk-section-inner">
+							<div class="bxst-helpdesk-section-title">
+								<div id="automation"></div>								<div class="bxst-block-title bxst-title-md">Автоматизація продажів</div>
+							</div>
+							<div class="bxst-helpdesk-section-list">
+																		<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="7009381">
+																										Роботи для зв'язку з клієнтом: автоматичні листи, дзвінки, sms, голосові повідомлення													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="7009381">
+																										Роботи-нагадування менеджерам													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="7008327">
+																										Тригери для запуску дій у CRM													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="7009381">
+																										Свої роботи у CRM (webhooks)													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="7009381">
+																										Роботи та бізнес-процеси у CRM													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																	</div>
+						</div>
+					</div>
+				</div>
+								<div class="bxst-section-cnt bxst-border-bottom">
+					<div class="bxst-helpdesk-section">
+						<div class="bxst-helpdesk-section-inner">
+							<div class="bxst-helpdesk-section-title">
+																<div class="bxst-block-title bxst-title-md">Рахунки та способи оплати</div>
+							</div>
+							<div class="bxst-helpdesk-section-list">
+																		<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5888295">
+																										Як виставляти рахунки клієнтам													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887831">
+																										Оплата рахунку онлайн													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887937">
+																										Регулярні рахунки													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5888113">
+																										Банківський переказ													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5888113">
+																										Paypal													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																	</div>
+						</div>
+					</div>
+				</div>
+								<div class="bxst-section-cnt bxst-border-bottom">
+					<div class="bxst-helpdesk-section">
+						<div class="bxst-helpdesk-section-inner">
+							<div class="bxst-helpdesk-section-title">
+																<div class="bxst-block-title bxst-title-md">Автозаповнення CRM</div>
+							</div>
+							<div class="bxst-helpdesk-section-list">
+																		<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6518265">
+																										Облік всіх вхідних та вихідних дзвінків													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887669">
+																										Облік всіх вхідних та вихідних листів по електронній пошті													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887807">
+																										Чати в соцмережах і месенджерах													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6904255">
+																										Контакти з онлайн-чату на сайт													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6904255">
+																										З CRM-форм на сайті													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6444443">
+																										Контроль дублікатів													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																	</div>
+						</div>
+					</div>
+				</div>
+								<div class="bxst-section-cnt bxst-border-bottom">
+					<div class="bxst-helpdesk-section">
+						<div class="bxst-helpdesk-section-inner">
+							<div class="bxst-helpdesk-section-title">
+																<div class="bxst-block-title bxst-title-md">Імпорт/експорт даних</div>
+							</div>
+							<div class="bxst-helpdesk-section-list">
+																		<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887617">
+																										Імпорт з .csv													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887823">
+																										Імпорт контактів з vCard, в .csv з Gmail, Outlook													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887623">
+																										Експорт контактів у .csv, Excel, Outlook													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887945">
+																										Міграція в Бітрікс24 з інших CRM													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																	</div>
+						</div>
+					</div>
+				</div>
+								<div class="bxst-section-cnt bxst-border-bottom">
+					<div class="bxst-helpdesk-section">
+						<div class="bxst-helpdesk-section-inner">
+							<div class="bxst-helpdesk-section-title">
+																<div class="bxst-block-title bxst-title-md">Товари в CRM</div>
+							</div>
+							<div class="bxst-helpdesk-section-list">
+																		<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5888367">
+																										Управління каталогом товарів													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887359">
+																										Налаштування податків													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="7595783">
+																										Налаштування валют													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																	</div>
+						</div>
+					</div>
+				</div>
+								<div class="bxst-section-cnt bxst-border-bottom">
+					<div class="bxst-helpdesk-section">
+						<div class="bxst-helpdesk-section-inner">
+							<div class="bxst-helpdesk-section-title">
+																<div class="bxst-block-title bxst-title-md">Інтеграції</div>
+							</div>
+							<div class="bxst-helpdesk-section-list">
+																		<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5888369">
+																										Інтеграція з BAS													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5888311">
+																										BAS-трекер													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887521">
+																										Інтеграція із Завданнями та Проектами													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6518265">
+																										Інтеграція з Телефонією													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="7429031">
+																										Інтеграція з інтернет-магазинами на "Бітрікс: Управління сайтом"													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																	</div>
+						</div>
+					</div>
+				</div>
+								<div class="bxst-section-cnt bxst-border-bottom">
+					<div class="bxst-helpdesk-section">
+						<div class="bxst-helpdesk-section-inner">
+							<div class="bxst-helpdesk-section-title">
+																<div class="bxst-block-title bxst-title-md">Права доступу<br>та історія</div>
+							</div>
+							<div class="bxst-helpdesk-section-list">
+																		<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6306801">
+																										Розподіл прав доступу до CRM за ролями													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="7396655">
+																										Журнал доступу співробітників до даних у CRM													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="7396655">
+																										Історія всіх змін													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																	</div>
+						</div>
+					</div>
+				</div>
+								<div class="bxst-section-cnt bxst-border-bottom">
+					<div class="bxst-helpdesk-section">
+						<div class="bxst-helpdesk-section-inner">
+							<div class="bxst-helpdesk-section-title">
+																<div class="bxst-block-title bxst-title-md">Налаштування CRM</div>
+							</div>
+							<div class="bxst-helpdesk-section-list">
+																		<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887757">
+																										Джерела контактів													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5888333">
+																										Користувальницькі поля													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887715">
+																										Розумні реквізити (автозаповнення даних по ІПН)													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887981">
+																										Простий і класичний режим роботи CRM													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="9028261">
+																										Кошик в CRM													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																	</div>
+						</div>
+					</div>
+				</div>
+								<div class="bxst-section-cnt bxst-border-bottom">
+					<div class="bxst-helpdesk-section">
+						<div class="bxst-helpdesk-section-inner">
+							<div class="bxst-helpdesk-section-title">
+								<div id="calls"></div>								<div class="bxst-block-title bxst-title-md">Телефонія у CRM</div>
+							</div>
+							<div class="bxst-helpdesk-section-list">
+																		<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6262745">
+																										Телефонія, способи підключення													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6518265">
+																										Налаштування номеру													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6964369">
+																										Налаштування<br>офісної АТС													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6964613">
+																										Налаштування<br>хмарної АТС													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887319">
+																										Необмежене число вхідних ліній													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6518265">
+																										Маршрутизація дзвінків між співробітниками													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6518265">
+																										Перенаправлення під час виклику													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887449">
+																										Підключення телефонного апарату													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6518335">
+																										Перехоплення дзвінка з телефонного апарату													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6453717">
+																										Внутрішні номери для співробітників													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887303">
+																										Налаштування за робочим часом													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887705">
+																										Голосові повідомлення для привітання й автовідповідача													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6260751">
+																										Запис розмов													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6307491">
+																										Налаштування прав доступу в Телефонії													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887983">
+																										Обдзвін													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887977">
+																										IVR (голосове меню)													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6518265">
+																										Оцінка якості розмови клієнтом													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887977">
+																										Групи співробітників<br>у черзі													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5887977">
+																										Одночасний дзвінок на усіх вільних співробітників в черзі													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="6518265">
+																										Визначення джерела дзвінка за номером телефону													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																				<div class="bxst-helpdesk-section-list-item">
+											<div class="bxst-helpdesk-section-list-item-inner">
+																								<div class="bxst-helpdesk-section-list-item-link js-open-help-article" data-article-id="5888417">
+																										Розпізнавання голосу в текст													<span class="bxst-helpdesk-section-list-item-inner-arrow"></span>
+												</div>
+											</div>
+										</div>
+																	</div>
+						</div>
+					</div>
+				</div>
+					</div>
+		<div id="bxdynamic_TGciQg_end" style="display:none"></div><div class="bxst-section bxst-section-companies-count bxst-border-top">
+	<div class="bxst-section-cnt">
+		<div class="bxst-block-title bxst-title-sm">
+			Більш 7 000 000 компаній вже використовують Бітрікс24 Приєднуйтесь!		</div>
+		<div class="bxst-section-companies-count-button">
+			<div id="bxdynamic_register_form_c63bbdd9fd453942363ba7139bf35fde_start" style="display:none"></div>	<div>
+		<div>
+			<a class="bxst-btn bxst-btn-success bxst-btn-lg" href="/create.php?b24_type=crm">створити безкоштовно</a>
+		</div>
+	</div>
+<div id="bxdynamic_register_form_c63bbdd9fd453942363ba7139bf35fde_end" style="display:none"></div>		</div>
+	</div>
+</div>	</div>
+			<div class="footer-section bx-ui-background-gradient-primary">
+			<div class="footer-content">
+									<div class="footer-content__section footer-content__section_main-menu">
+
+						<div class="footer-main-menu footer-main-menu_border-bottom js-slide-menu-section">
+							<div class="footer-main-menu__inner">
+																		<div class="footer-main-menu__section">
+											<div class="footer-main-menu-section" data-bx-slide-menu-section>
+												<div class="footer-main-menu-section__inner">
+													<div class="footer-main-menu-section__header" data-bx-slide-menu-header>
+														<div class="footer-main-menu-section__title">Можливості</div>
+														<div class="footer-main-menu-section__icon"></div>
+													</div>
+														<ul class="footer-main-menu-section__list">
+						<li
+					class="footer-main-menu-section__item"
+				>
+					<span class="footer-main-menu-section__link">CRM</span>				</li>
+								<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="/features/videocalling.php">Відеодзвінки HD</a>				</li>
+								<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="/features/company.php">Онлайн-офіс</a>				</li>
+								<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="/features/tasks.php">Завдання та проекти</a>				</li>
+								<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="/features/ol.php">Відкриті лінії</a>				</li>
+								<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="/features/sites.php">Сайти</a>				</li>
+					</ul>
+													</div>
+											</div>
+										</div>
+																				<div class="footer-main-menu__section">
+											<div class="footer-main-menu-section" data-bx-slide-menu-section>
+												<div class="footer-main-menu-section__inner">
+													<div class="footer-main-menu-section__header" data-bx-slide-menu-header>
+														<div class="footer-main-menu-section__title">Підтримка</div>
+														<div class="footer-main-menu-section__icon"></div>
+													</div>
+														<ul class="footer-main-menu-section__list">
+						<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="https://helpdesk.bitrix24.ua/">Питання та відповіді</a>				</li>
+								<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="/features/pages/training.php">Навчання</a>				</li>
+								<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="/support/webinars.php">Вебінари</a>				</li>
+								<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="https://helpdesk.bitrix24.ua/ticket.php">Поставити питання</a>				</li>
+								<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="https://status.bitrix24.ua/">Статус доступності Бітрікс24</a>				</li>
+					</ul>
+													</div>
+											</div>
+										</div>
+																				<div class="footer-main-menu__section">
+											<div class="footer-main-menu-section" data-bx-slide-menu-section>
+												<div class="footer-main-menu-section__inner">
+													<div class="footer-main-menu-section__header" data-bx-slide-menu-header>
+														<div class="footer-main-menu-section__title">Впровадження</div>
+														<div class="footer-main-menu-section__icon"></div>
+													</div>
+														<ul class="footer-main-menu-section__list">
+						<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="/partners/introduction.php">Замовити впровадження</a>				</li>
+								<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="/partners/">Партнери</a>				</li>
+								<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="https://partners.bitrix24.ua/">Стати партнером</a>				</li>
+					</ul>
+													</div>
+											</div>
+										</div>
+																				<div class="footer-main-menu__section">
+											<div class="footer-main-menu-section" data-bx-slide-menu-section>
+												<div class="footer-main-menu-section__inner">
+													<div class="footer-main-menu-section__header" data-bx-slide-menu-header>
+														<div class="footer-main-menu-section__title">Ціни і тарифи</div>
+														<div class="footer-main-menu-section__icon"></div>
+													</div>
+														<ul class="footer-main-menu-section__list">
+						<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="/prices/">Хмарний сервіс</a>				</li>
+								<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="/prices/self-hosted.php">Коробкова версія</a>				</li>
+								<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="/articles/">Сфери застосування Бітрікс24</a>				</li>
+					</ul>
+													</div>
+											</div>
+										</div>
+																				<div class="footer-main-menu__section">
+											<div class="footer-main-menu-section" data-bx-slide-menu-section>
+												<div class="footer-main-menu-section__inner">
+													<div class="footer-main-menu-section__header" data-bx-slide-menu-header>
+														<div class="footer-main-menu-section__title">Застосунки</div>
+														<div class="footer-main-menu-section__icon"></div>
+													</div>
+														<ul class="footer-main-menu-section__list">
+						<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="/features/apps.php">Мобільний застосунок</a>				</li>
+								<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="/features/desktop.php">Десктоп-застосунок</a>				</li>
+								<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="/apps/">Застосунки24</a>				</li>
+								<li
+					class="footer-main-menu-section__item"
+				>
+					<a class="footer-main-menu-section__link" href="/apps/dev.php">Розробникам</a>				</li>
+					</ul>
+													</div>
+											</div>
+										</div>
+										
+							</div>
+						</div>
+
+					</div>
+										<div class="footer-content__section footer-content__section_info">
+						<div class="footer-info-section footer-info-section_border-bottom">
+							<div class="footer-info-section__section">
+								<div class="footer-info-sidebar">
+									<div class="footer-info-sidebar__section footer-info-sidebar__section_menu">
+										<div class="footer-about-menu">
+												<ul class="footer-about-menu__list">
+						<li class="footer-about-menu__item">
+					<a class="footer-about-menu__link" href="/about/privacy.php">Конфіденційність</a>				</li>
+								<li class="footer-about-menu__item">
+					<a class="footer-about-menu__link" href="/about/agreement.php">Угода</a>				</li>
+								<li class="footer-about-menu__item">
+					<a class="footer-about-menu__link" href="https://events.bitrix.ua/">Події</a>				</li>
+								<li class="footer-about-menu__item">
+					<a class="footer-about-menu__link" href="/about/">Про нас</a>				</li>
+								<li class="footer-about-menu__item">
+					<a class="footer-about-menu__link" href="/about/we.php">Контакти</a>				</li>
+								<li class="footer-about-menu__item">
+					<a class="footer-about-menu__link" href="/security/">Безпека</a>				</li>
+					</ul>
+											</div>
+										<div class="footer-consent-menu">
+												<ul class="footer-consent-menu__list">
+						<li class="footer-consent-menu__item">
+					<a class="footer-consent-menu__link" href="/abuse/sites.php">Правила використання Бітрікс24.Сайти</a>				</li>
+					</ul>
+											</div>
+									</div>
+
+									<div class="footer-info-sidebar__section footer-info-sidebar__section_media">
+
+										<div class="footer-social-media">
+											<div class="footer-social-media__row">
+												<div class="footer-social-media__column">
+													<div class="footer-social-media__section">
+														<div class="footer-marketplace">
+				<div class="footer-marketplace__item">
+				<a
+					href="/features/desktop.php"
+					class="footer-marketplace__link"
+				>
+					<img src="/images/content_common/icons/appstore/bitrix24-desktop-white-ua.svg" class="footer-marketplace__picture">
+				</a>
+			</div>
+						<div class="footer-marketplace__item">
+				<a
+					href="https://bitrix24.onelink.me/v3FJ/6c576a40"
+					class="footer-marketplace__link"
+				>
+					<img src="/images/content_common/icons/appstore/app-store-white-ua.svg" class="footer-marketplace__picture">
+				</a>
+			</div>
+						<div class="footer-marketplace__item">
+				<a
+					href="https://bitrix24.onelink.me/v3FJ/6c576a40"
+					class="footer-marketplace__link"
+				>
+					<img src="/images/content_common/icons/appstore/google-play-white-ua.svg" class="footer-marketplace__picture">
+				</a>
+			</div>
+			</div>													</div>
+												</div>
+											</div>
+
+											<div class="footer-social-media__row footer-social-media__row_align">
+												<div class="footer-social-media__column">
+													<div class="footer-social-media__section">
+																											</div>
+												</div>
+
+												<div class="footer-social-media__column footer-social-media__column_social">
+													<div class="footer-social-media__section">
+														<div class="footer-social-network">
+															<div
+																class="footer-social-network__title"
+															>Ми в соцмережах</div>
+															<ul class="footer-social-network__list">
+				<li class="footer-social-network__item">
+				<a class="footer-social-network__link" href="https://www.facebook.com/bitrix24ukraine/">
+					<i class="fab fa-facebook-f" aria-hidden="true"></i>
+				</a>
+			</li>
+						<li class="footer-social-network__item">
+				<a class="footer-social-network__link" href="https://www.youtube.com/channel/UCh1Zjhs4KswEM80y31flPgg">
+					<i class="fab fa-youtube" aria-hidden="true"></i>
+				</a>
+			</li>
+						<li class="footer-social-network__item">
+				<a class="footer-social-network__link" href="https://www.instagram.com/bitrix24.ua/">
+					<i class="fab fa-instagram" aria-hidden="true"></i>
+				</a>
+			</li>
+						<li class="footer-social-network__item">
+				<a class="footer-social-network__link" href="https://t.me/bitrix24ua">
+					<i class="fab fa-telegram-plane" aria-hidden="true"></i>
+				</a>
+			</li>
+			</ul>
+														</div>
+																											</div>
+
+													<div class="footer-social-media__section">
+														<div class="footer-search">
+																														<form
+																class="footer-search__form"
+																action="/search/"
+																															>
+																<input
+																	type="text"
+																	name="q"
+																	placeholder="Що шукаємо?"
+																	class="footer-search__input">
+																<input type="submit" class="footer-search__submit">
+															</form>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+													</div>
+					</div>
+											<div class="footer-content__section footer-content__section_copyright">
+											<div class="footer-copyright">
+					<div class="footer-copyright__section footer-copyright__section_description">
+						<div class="footer-copyright__description">
+							© 2001-2021 «Бітрікс», «Bitrix Inc». <span class="footer-copyright__age-icon">16+</span>						</div>
+					</div>
+
+											<div class="footer-copyright__section footer-copyright__section_composite">
+							<div id="bx-composite-banner"></div>
+						</div>
+										</div>
+										</div>
+						
+			</div>
+		</div>
+		<div id="bxdynamic_7oB3wx_start" style="display:none"></div><div id="bxdynamic_7oB3wx_end" style="display:none"></div><div id="bxdynamic_AuBsm9_start" style="display:none"></div><div id="bxdynamic_AuBsm9_end" style="display:none"></div>
+<style>
+.bx-livechat-control-btn-like {
+	display:none !important;
+}
+</style><div id="bxst-buypage-ua" style="display: none;">
+	<div id="bxdynamic_bxst-buypage-ua_start" style="display:none"></div>		<div class="bxst-header-authorization-user-popup-inner js-authorization-user-popup-buy-page">
+							<div class="bxst-header-authorization-user-popup-description">Авторизуйтеся, щоб увійти<br />до Бітрікс24 вашої компанії.</div>
+				<div class="bxst-header-authorization-user-popup-btn">
+					<div
+						class="bx-ui-button bx-ui-button_primary"
+						data-request-params
+						onclick="window.Bitrix24NetAuthWindowManager.Bitrix24NetAuthWindow(this);"
+					>Вхід</div>
+				</div>
+				<div class="bxst-header-authorization-user-popup-footer">
+					<div class="bxst-header-authorization-user-popup-footer-title">У вас ще немає Бітрікс24?</div>
+					<a class="bxst-header-authorization-user-popup-footer-link" href="/create.php">Створіть просто зараз</a>
+				</div>
+						</div>
+		<div id="bxdynamic_bxst-buypage-ua_end" style="display:none"></div></div>
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Завантаження...','JS_CORE_NO_DATA':'— Немає даних —','JS_CORE_WINDOW_CLOSE':'Закрити','JS_CORE_WINDOW_EXPAND':'Розгорнути','JS_CORE_WINDOW_NARROW':'Згорнути у вікно','JS_CORE_WINDOW_SAVE':'Зберегти','JS_CORE_WINDOW_CANCEL':'Скасувати','JS_CORE_WINDOW_CONTINUE':'Продовжити','JS_CORE_H':'г','JS_CORE_M':'хв','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Приховати зайві','JSADM_AI_ALL_NOTIF':'Показати всі','JSADM_AUTH_REQ':'Потрібна авторизація!','JS_CORE_WINDOW_AUTH':'Увійти','JS_CORE_IMAGE_FULL':'Повний розмір'});</script><script type="text/javascript" src="/bitrix/js/main/core/core.min.js?1586411910248989"></script><script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+BX.setCSSList(['/bitrix/js/main/core/css/core.css','/bitrix/js/main/lazyload/dist/lazyload.bundle.css','/bitrix/js/main/parambag/dist/parambag.bundle.css']);</script>
+<script type="text/javascript">(window.BX||top.BX).message({'MAIN_SIDEPANEL_CLOSE':'Закрити','MAIN_SIDEPANEL_PRINT':'Друк'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ua','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'ua','SITE_DIR':'/'});</script><script type="text/javascript" src="/bitrix/js/main/polyfill/customevent/main.polyfill.customevent.min.js?1559731378556"></script>
+<script type="text/javascript" src="/bitrix/js/ui/dexie/dist/dexie.bitrix.bundle.min.js?157553477960287"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_ls.min.js?14332482337365"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_fx.min.js?14932929299768"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_frame_cache.min.js?158641178610422"></script>
+<script type="text/javascript" src="/bitrix/js/main/jquery/jquery-1.12.3.min.js?155834220297180"></script>
+<script type="text/javascript" src="/bitrix/js/main/popup/dist/main.popup.bundle.min.js?158641190957910"></script>
+<script type="text/javascript" src="/bitrix/js/main/pageobject/pageobject.min.js?1586411910570"></script>
+<script type="text/javascript" src="/bitrix/js/main/sidepanel/manager.min.js?158641190917103"></script>
+<script type="text/javascript" src="/bitrix/js/main/sidepanel/slider.min.js?158641190926997"></script>
+<script type="text/javascript">
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_ua");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("ua")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+
+
+
+<script type="text/javascript" src="/bitrix/content_vendors/owlcarousel2/dist/owl.carousel.fixed.js?154824383686555"></script>
+<script type="text/javascript" src="/bitrix/content_vendors/aos.animation/src/js/aos.animation.js?154824383613953"></script>
+<script type="text/javascript" src="/bitrix/content_vendors/bitrix24_ui/js/accordion.js?16076137291650"></script>
+<script type="text/javascript" src="/bitrix/templates/bitrix24_2017/js/system/header.js?16014774675548"></script>
+<script type="text/javascript" src="/bitrix/templates/bitrix24_2017/js/stick.section.js?16014774673675"></script>
+<script type="text/javascript" src="/bitrix/templates/bitrix24_2017/js/simple.slide.menu.js?1601477467889"></script>
+<script type="text/javascript" src="/bitrix/templates/bitrix24_2017/js/youtube.video.manager.js?16014774679954"></script>
+<script type="text/javascript" src="/bitrix/templates/bitrix24_2017/js/selectors.js?155411353710556"></script>
+<script type="text/javascript" src="/bitrix/templates/bitrix24_2017/js/portal.choose.js?160147746710334"></script>
+<script type="text/javascript" src="/bitrix/templates/bitrix24_2017/js/template.auth.main.forms.js?16014774671646"></script>
+<script type="text/javascript" src="/bitrix/templates/bitrix24_2017/js/features.slider.js?15620659757628"></script>
+<script type="text/javascript" src="/bitrix/templates/bitrix24_2017/js/content.js?16050150835233"></script>
+<script type="text/javascript" src="/bitrix/templates/bitrix24_2017/js/reviews.gallery.slider.js?1601477467425"></script>
+<script type="text/javascript" src="/local/components/sb/cookie.manager.bitrix24/templates/.default/base.js?15580946535814"></script>
+<script type="text/javascript" src="/local/components/sb/portal.auth.bitrix24/templates/portal.auth.window/script.js?15759883102831"></script>
+<script type="text/javascript" src="/bitrix/content_vendors/popup.manager/popup.manager.js?158946617821230"></script>
+<script type="text/javascript" src="/bitrix/templates/bitrix24_2017/js/portal.auth.window.js?16014774671087"></script>
+<script type="text/javascript" src="/bitrix/templates/bitrix24_2017/js/lang.selector.globe.js?16014774672142"></script>
+<script type="text/javascript" src="/bitrix/components/bitrix24/bitrix24net.auth/templates/bitrix24net.buy.page/script.js?15754560744457"></script>
+<script type="text/javascript" src="/bitrix/templates/bitrix24_2017/components/bitrix/menu/category.menu/script.js?16014774642910"></script>
+<script type="text/javascript" src="/bitrix/components/bx/helpdesk.article.list/templates/.default/script.js?15626662141936"></script>
+<script type="text/javascript" src="/local/components/sb/gdpr.manager.bitrix24/templates/.default/base.js?15589516375491"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "f72c584a67a42363d3122edb9349c1a5"]); _ba.push(["host", "www.bitrix24.ua"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+<script>
+				BX.ready(function() {
+			(new ContentSlidePanel({
+				openButtonClass: 'js-open-help-article',
+				articleUrlTemplate: 'https://helpdesk.bitrix24.ua/widget2/bitrix24/#article_id#/',
+			}));
+		});
+	</script>
+<script type="text/javascript">
+	BX.ready(function () {
+		(window.BxLiveChatLoader = window.BxLiveChatLoader || []).push(function() {
+			BX.LiveChat.addEventListener(window, 'message', function(event){
+				if(event && event.origin == BX.LiveChat.sourceDomain)
+				{
+					var data = {};
+					try { data = JSON.parse(event.data); } catch (err){}
+					if(!data.action) return;
+					if (data.action == 'sendMessage')
+					{
+						dataLayer.push({'event': 'OnlineChat_Message'});
+					}
+				}
+			});
+		});
+	});
+</script></body>
+</html><!--4733a5e1bf7fd2abc4c412259f6c5c1b-->

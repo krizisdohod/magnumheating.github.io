@@ -1,0 +1,142 @@
+Uri: https://bvmukraine.space/kyivservicevikna/
+File Name: C:\Downloaded Web Sites\bvmukraine.space\kyivservicevikna\index.htm
+Content Type: text/html
+
+Uri: https://bvmukraine.space/bitrix/js/main/core/css/core.min.css?14290239272854
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\js\main\core\css\core.min.css
+Content Type: text/css
+
+Uri: https://bvmukraine.space/bitrix/js/intranet/intranet-common.min.css?156700641462422
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\js\intranet\intranet-common.min.css
+Content Type: text/css
+
+Uri: https://bvmukraine.space/bitrix/js/main/sidepanel/css/sidepanel.min.css?16044092096434
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\js\main\sidepanel\css\sidepanel.min.css
+Content Type: text/css
+
+Uri: https://bvmukraine.space/bitrix/js/landing/css/landing_public.min.css?1567508327250
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\js\landing\css\landing_public.min.css
+Content Type: text/css
+
+Uri: https://bvmukraine.space/bitrix/components/bitrix/landing.pub/templates/.default/style.min.css?160165017637243
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\components\bitrix\landing.pub\templates\.default\style.min.css
+Content Type: text/css
+
+Uri: https://bvmukraine.space/bitrix/templates/landing24/assets/vendor/bootstrap/bootstrap.min.css?1567508327154948
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\templates\landing24\assets\vendor\bootstrap\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://bvmukraine.space/bitrix/templates/landing24/theme.min.css?1608555882628499
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\templates\landing24\theme.min.css
+Content Type: text/css
+
+Uri: https://bvmukraine.space/bitrix/templates/landing24/assets/css/custom-grid.min.css?156933840138
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\templates\landing24\assets\css\custom-grid.min.css
+Content Type: text/css
+
+Uri: https://bvmukraine.space/bitrix/templates/landing24/template_styles.min.css?1583933130781
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\templates\landing24\template_styles.min.css
+Content Type: text/css
+
+Uri: https://bvmukraine.space/bitrix/templates/landing24/assets/vendor/icon/fa/font.woff
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\templates\landing24\assets\vendor\icon\fa\font.woff
+Content Type: application/octet-stream
+
+Uri: https://bvmukraine.space/bitrix/templates/landing24/assets/vendor/icon/fa/font.woff2
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\templates\landing24\assets\vendor\icon\fa\font.woff2
+Content Type: application/octet-stream
+
+Uri: https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic,cyrillic-ext,latin-ext
+File Name: C:\Downloaded Web Sites\bvmukraine.space\css.css
+Content Type: text/css
+
+Uri: https://b24-xasy3a.bitrix24site.ua/crm_form29/
+File Name: C:\Downloaded Web Sites\bvmukraine.space\crm_form29\index.htm
+Content Type: text/html
+
+Uri: https://www.facebook.com/kyivservicevikna/reviews/?ref=page_internal
+File Name: C:\Downloaded Web Sites\bvmukraine.space\kyivservicevikna\reviews\index.htm
+Content Type: text/html
+
+Uri: https://www.facebook.com/kyivservicevikna/
+File Name: C:\Downloaded Web Sites\bvmukraine.space\kyivservicevikna\index-1.htm
+Content Type: text/html
+
+Uri: https://docs.google.com/document/d/1dAP4ykpo8kC2lQgZ492ISrfvCMKBKpOILsH_crWwnVE/edit?usp=sharing
+File Name: C:\Downloaded Web Sites\bvmukraine.space\document\d\1dAP4ykpo8kC2lQgZ492ISrfvCMKBKpOILsH_crWwnVE\edit.html
+Content Type: text/html
+
+Uri: https://bvmukraine.space/bitrix/components/bitrix/landing.pub/templates/.default/images/ua.svg?1
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\components\bitrix\landing.pub\templates\.default\images\ua.svg
+Content Type: image/svg+xml
+
+Uri: https://bvmukraine.space/bitrix/js/main/core/core.min.js?1610361173252123
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\js\main\core\core.min.js
+Content Type: application/x-javascript
+
+Uri: https://bvmukraine.space/bitrix/js/main/polyfill/customevent/main.polyfill.customevent.min.js?1544619813556
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\js\main\polyfill\customevent\main.polyfill.customevent.min.js
+Content Type: application/x-javascript
+
+Uri: https://bvmukraine.space/bitrix/js/ui/dexie/dist/dexie.bitrix.bundle.min.js?159049177860291
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\js\ui\dexie\dist\dexie.bitrix.bundle.min.js
+Content Type: application/x-javascript
+
+Uri: https://bvmukraine.space/bitrix/js/main/core/core_ls.min.js?14328944187365
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\js\main\core\core_ls.min.js
+Content Type: application/x-javascript
+
+Uri: https://bvmukraine.space/bitrix/js/main/core/core_fx.min.js?14909536449768
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\js\main\core\core_fx.min.js
+Content Type: application/x-javascript
+
+Uri: https://bvmukraine.space/bitrix/js/main/core/core_frame_cache.min.js?159765985710532
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\js\main\core\core_frame_cache.min.js
+Content Type: application/x-javascript
+
+Uri: https://bvmukraine.space/bitrix/js/main/pageobject/pageobject.min.js?1584117434570
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\js\main\pageobject\pageobject.min.js
+Content Type: application/x-javascript
+
+Uri: https://bvmukraine.space/bitrix/js/main/sidepanel/manager.min.js?160440920919287
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\js\main\sidepanel\manager.min.js
+Content Type: application/x-javascript
+
+Uri: https://bvmukraine.space/bitrix/js/main/sidepanel/slider.min.js?160440918227255
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\js\main\sidepanel\slider.min.js
+Content Type: application/x-javascript
+
+Uri: https://bvmukraine.space/bitrix/js/landing/metrika/dist/metrika.bundle.min.js?16085558822654
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\js\landing\metrika\dist\metrika.bundle.min.js
+Content Type: application/x-javascript
+
+Uri: https://bvmukraine.space/bitrix/templates/landing24/assets/js/helpers/lazyload.min.js?15994906851713
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\templates\landing24\assets\js\helpers\lazyload.min.js
+Content Type: application/x-javascript
+
+Uri: https://bvmukraine.space/bitrix/components/bitrix/landing.pub/templates/.default/script.min.js?16085558823456
+File Name: C:\Downloaded Web Sites\bvmukraine.space\bitrix\components\bitrix\landing.pub\templates\.default\script.min.js
+Content Type: application/x-javascript
+
+Uri: https://www.bitrix24.ua/?utm_medium=referral&utm_source=bitrix24.ua&utm_campaign=ua_sites_bitrix24_logo
+File Name: C:\Downloaded Web Sites\bvmukraine.space\index.htm
+Content Type: text/html
+
+Uri: https://www.bitrix24.ua/features/sites.php?utm_medium=referral&utm_source=bitrix24.ua&utm_campaign=ua_sites_websites
+File Name: C:\Downloaded Web Sites\bvmukraine.space\features\sites.php.html
+Content Type: text/html
+
+Uri: https://www.bitrix24.ua/features/?utm_medium=referral&utm_source=bitrix24.ua&utm_campaign=ua_sites_crm
+File Name: C:\Downloaded Web Sites\bvmukraine.space\features\index.htm
+Content Type: text/html
+
+Uri: https://www.bitrix24.net/create/?user_lang=ua&client_id=site.53889571c90015.88708617&bx_utm_source=bitrix24.ua&bx_utm_medium=referral&bx_utm_campaign=ua_sites_crm&menu_preset=sites
+File Name: C:\Downloaded Web Sites\bvmukraine.space\create\index.htm
+Content Type: text/html
+
+
+
+Uri: https://www.bitrix24.net/create/?user_lang=ua&client_id=site.53889571c90015.88708617&bx_utm_source=bitrix24.ua&bx_utm_medium=referral&bx_utm_campaign=ua_sites_crm&menu_preset=sites
+File Name: C:\Downloaded Web Sites\bvmukraine.space\create\index.htm
+Content Type: text/html
+
